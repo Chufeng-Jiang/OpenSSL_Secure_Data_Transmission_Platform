@@ -116,7 +116,7 @@
 >
 > 如图所示:
 >
-> <img src="snipaste_20180423_182257.png" width="50%">
+<img src="snipaste_20180423_182257.png" width="50%">
 >
 > 
 
