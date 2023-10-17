@@ -1,0 +1,4 @@
+﻿  teacher.c
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ASN1_Test\TeacherTest\TeacherTest\teacher.c(24,61): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ASN1_Test\TeacherTest\TeacherTest\teacher.c(35,31): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  TeacherTest.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\ASN1_Test\TeacherTest\x64\Debug\TeacherTest.exe
