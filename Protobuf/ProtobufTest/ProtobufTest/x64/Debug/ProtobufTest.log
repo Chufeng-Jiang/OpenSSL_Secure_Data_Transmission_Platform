@@ -1,0 +1,6 @@
+﻿  Persion.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(156,64): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(185,65): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+  test.cpp
+  正在生成代码...
+  ProtobufTest.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\x64\Debug\ProtobufTest.exe
