@@ -1,9 +1,21 @@
 syntax = "proto3";
+// 导入另外一个proto文件
+import "Info.proto";
+package itcast;
+
+enum Color
+{
+	Red = 0;	// protbuf中第一个枚举值必须为0
+	Green = 6;
+	Blue = 9;
+}
 
 message Persion
 {
-    int32 id = 1;   
+    int32 id = 1;   // 编号从1开始
     repeated bytes name = 2;
     string sex = 3;
     int32 age = 4;
+    Color color = 5;
+    itheima.Persion info = 6;
 }

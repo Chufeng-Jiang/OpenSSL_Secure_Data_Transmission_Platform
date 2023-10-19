@@ -1,6 +1,29 @@
-﻿  Persion.pb.cc
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(156,64): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(185,65): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+﻿  Info.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Info.pb.cc(152,68): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+  Persion.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(206,64): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.cc(235,65): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
   test.cpp
+  正在运行 C/C++ 代码分析...
   正在生成代码...
   ProtobufTest.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\x64\Debug\ProtobufTest.exe
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\stubs\strutil.h(656): warning C26495: 未初始化变量 google::protobuf::strings::AlphaNum::digits。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\stubs\strutil.h(661): warning C26495: 未初始化变量 google::protobuf::strings::AlphaNum::digits。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\stubs\strutil.h(664): warning C26495: 未初始化变量 google::protobuf::strings::AlphaNum::digits。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\io\coded_stream.h(663): warning C26495: 未初始化变量 google::protobuf::io::EpsCopyOutputStream::buffer_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\io\coded_stream.h(674): warning C26495: 未初始化变量 google::protobuf::io::EpsCopyOutputStream::buffer_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\parse_context.h(112): warning C26495: 未初始化变量 google::protobuf::internal::EpsCopyInputStream::limit_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\parse_context.h(593): warning C26451: 算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(565): warning C26495: 未初始化变量 google::protobuf::Descriptor::field_count_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(923): warning C26495: 未初始化变量 google::protobuf::FieldDescriptor::<unnamed-tag>::default_value_double_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1003): warning C26495: 未初始化变量 google::protobuf::OneofDescriptor::name_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1153): warning C26495: 未初始化变量 google::protobuf::EnumDescriptor::reserved_ranges_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1236): warning C26495: 未初始化变量 google::protobuf::EnumValueDescriptor::type_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1317): warning C26495: 未初始化变量 google::protobuf::ServiceDescriptor::name_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1405): warning C26495: 未初始化变量 google::protobuf::MethodDescriptor::name_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\descriptor.h(1594): warning C26495: 未初始化变量 google::protobuf::FileDescriptor::name_。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\generated_message_reflection.h(140): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\extension_set.h(101): warning C26495: 未初始化变量 google::protobuf::internal::ExtensionInfo::is_repeated。始终初始化成员变量(type.6)。
+D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\extension_set.h(102): warning C26495: 未初始化变量 google::protobuf::internal::ExtensionInfo::<unnamed-tag>::enum_validity_check。始终初始化成员变量(type.6)。
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.h(376): warning C6387: "value" 可以是 "0"。
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\Persion.pb.h(397): warning C6387: "value" 可以是 "0"。
