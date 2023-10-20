@@ -1,0 +1,13 @@
+﻿  Codec.cpp
+  CodecFactory.cpp
+  msg.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\EncDecCode\EncDecCode\msg.pb.cc(203,69): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\EncDecCode\EncDecCode\msg.pb.cc(550,68): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\EncDecCode\EncDecCode\msg.pb.cc(557,70): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+  Request.cpp
+  RequestFactory.cpp
+  RespondFactory.cpp
+  Response.cpp
+  test.cpp
+  正在生成代码...
+  EncDecCode.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\EncDecCode\x64\Debug\EncDecCode.exe
