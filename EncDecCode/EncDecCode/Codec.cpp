@@ -1,8 +1,6 @@
 ﻿#include "Codec.h"
 using namespace std;
 
-
-
 Codec::Codec()
 {
 }
@@ -16,7 +14,6 @@ void* Codec::decodeMsg()
 {
 	return NULL;
 }
-
 
 Codec::~Codec()
 {

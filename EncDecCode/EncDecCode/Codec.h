@@ -4,8 +4,14 @@
 class Codec
 {
 public:
+
+	//构造函数
 	Codec();
+
+	//虚函数：编码
 	virtual std::string encodeMsg();
+
+	//虚函数：解码
 	virtual void* decodeMsg();
 
 	//虚析构 --要实现多态的时候才使用虚析构
