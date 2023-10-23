@@ -45,9 +45,10 @@ void generateRsaKey()
 	RSA_generate_key_ex(rsa, 1024, e, NULL);
 	// 3. 将密钥对写入到磁盘
 #if 1
-	// 公钥
+	// 公钥在内存中，而不是在磁盘中
 	RSA* pubKey = RSAPublicKey_dup(rsa);
-	// 私钥
+
+	// 私钥在内存中，而不是在磁盘中
 	RSA* priKey = RSAPrivateKey_dup(rsa);
 #endif
 #if 0
@@ -180,6 +181,7 @@ void aesCBCCrypto()
 	unsigned char* out = new unsigned char[length];
 	unsigned char ivec[AES_BLOCK_SIZE];
 	memset(ivec, 9, sizeof(ivec));
+	
 	// 密文存储在out中
 	AES_cbc_encrypt((const unsigned char*)pt, out, length, &encKey, ivec, AES_ENCRYPT);
 
@@ -187,8 +189,11 @@ void aesCBCCrypto()
 	unsigned char* data = new unsigned char[length];
 	AES_KEY deckey;
 	memset(ivec, 9, sizeof(ivec));
+
 	AES_set_decrypt_key((const unsigned char*)key, 128, &deckey);
+
 	AES_cbc_encrypt(out, data, length, &deckey, ivec, AES_DECRYPT);
+	
 	// 6. 打印
 	cout << "还原的数据: " << data << endl;
 
@@ -198,14 +203,14 @@ void aesCBCCrypto()
 
 int main()
 {
-	sha1Test();
-//	generateRsaKey();
+	// sha1Test();
+	// generateRsaKey();
 
 	//string str = encryptPublicKey();
 	//string str1 = decryptPrivateKey(str);
 	//cout << "解密数据: " << str1 << endl;
-	//	rsaSigAndVerfiy();
-	//aesCBCCrypto();
+	//rsaSigAndVerfiy();
+	aesCBCCrypto();
 
 	return 0;
 }

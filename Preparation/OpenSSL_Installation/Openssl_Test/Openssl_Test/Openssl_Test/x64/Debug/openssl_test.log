@@ -1,9 +1,8 @@
 ﻿  test.cpp
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(94,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(122,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(147,65): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(154,51): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(153,77): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(171,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-    正在创建库 F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\Openssl_Test\x64\Debug\Openssl_Test.c.lib 和对象 F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\Openssl_Test\x64\Debug\Openssl_Test.c.exp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(95,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(123,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(148,65): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(155,51): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(154,77): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\test.cpp(172,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   openssl_test.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\OpenSSL_Installation\Openssl_Test\Openssl_Test\x64\Debug\Openssl_Test.c.exe
