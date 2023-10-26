@@ -191,6 +191,9 @@ libprotocd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     <ClInclude Include="RespondFactory.h" />
     <ClInclude Include="Response.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

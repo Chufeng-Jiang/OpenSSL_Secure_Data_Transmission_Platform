@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Codec" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Codec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodecFactory" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAgAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CodecFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestMsg" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="RequestMsg::__unnamed_enum_0407_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>msg.pb.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="RequestMsg::_Internal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>msg.pb.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Typedef Name="RequestMsg::InternalArenaConstructable_" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>msg.pb.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="RequestMsg::DestructorSkippable_" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>msg.pb.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQSAYKIWQACnFDpiUwAURDICAAiBJAKASAGyFAJjEAQ=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RespondMsg" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYWAYKAGQACGFDpAcwAERDYAAkmBRQIASAMwFAJhAAQ=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestCodec" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAEAAEAAAAAIAkAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Request.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestFactory" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAIgAAAIAAAAAAAAAAABAQ=</HashCode>
+      <FileName>RequestFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RespondFactory" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAABBAAAAAIgAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>RespondFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RespondCodec" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAEAAEAAAAAAAkAAAEAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Response.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google::protobuf::internal::AnyMetadata">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\ProgramData\protobuf\protobuf-3.17.2\src\google\protobuf\any.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RequestMsgDefaultTypeInternal" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RespondMsgDefaultTypeInternal" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TableStruct_msg_2eproto" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAACAAAABAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msg.pb.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RequestInfo" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>Request.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RespondInfo" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>Response.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

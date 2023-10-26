@@ -11,6 +11,7 @@ public:
 
 	// 创建对象的方法
 	virtual Codec* createCodec();
+
 	virtual ~CodecFactory();
 };
 

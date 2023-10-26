@@ -13,7 +13,7 @@ int main()
 	RequestInfo info{ 1, "client", "server", "x00911", "hello, world" };
 
 	//创建工厂类对象
-	CodecFactory* factory = new RequestFactory(&info);
+	CodecFactory* factory = new RequestFactory(&info); // 左父右子，创建了一个request的工厂，用于设置编码对象
 
 	//通过工厂函数创建编码对象
 	Codec* codec = factory->createCodec();

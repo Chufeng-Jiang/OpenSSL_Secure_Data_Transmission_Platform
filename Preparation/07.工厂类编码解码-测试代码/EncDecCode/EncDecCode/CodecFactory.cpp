@@ -8,7 +8,7 @@ CodecFactory::CodecFactory()
 
 Codec * CodecFactory::createCodec()
 {
-	return NULL;
+	return NULL; // 由子类重写覆盖
 }
 
 
