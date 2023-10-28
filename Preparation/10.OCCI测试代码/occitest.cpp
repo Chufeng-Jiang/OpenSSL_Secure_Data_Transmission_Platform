@@ -43,10 +43,27 @@ int main()
 	st->closeResultSet(result);
 	  printf("before insert new value\n");
 	// 数据库插入
-	sql = "insert into dept values(33, 'Beza', 'California')";
+	sql = "insert into dept values(2, 'CJ', 'California')";
 	st->setSQL(sql);
+	
+	// 获取事务模式是否开启
+	bool bl = st->getAutoCommit();
+	cout << "bl: " << bl << endl;	// 这个值默认是false
+	// 开启事务
+	// st->setAutoCommit(true);
 	int ret = st->executeUpdate();
 	cout << "insert return value: " << ret << endl;
+	if (ret <= 0)
+	{
+		// 操作失败
+		// 状态回滚 -> rollback, 由数据库实例对象调用
+		conn->rollback();
+	}
+	else
+	{
+		conn->commit();
+	}
+
 
 	// 销毁statment对象
 	conn->terminateStatement(st);

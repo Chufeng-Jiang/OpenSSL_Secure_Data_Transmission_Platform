@@ -1,6 +1,6 @@
-ServerSeckey
-ClientSecKey
 /OCCIOP.cpp
 /OCCIOP.h
 /server.json
 /client.json
+ClientSecKey
+ServerSeckey
