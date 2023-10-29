@@ -1,0 +1,9 @@
+{
+	"ServerID": "1002",
+	"Port": 9999,
+	"UserDB": "c##SECMNG",
+	"PwdDB": "SECMNG",
+	"ConnStrDB": "192.168.111.133:1521/ORCLCDB",
+	"ShmKey": "/usr/lib",
+	"ShmMaxNode": 10
+}

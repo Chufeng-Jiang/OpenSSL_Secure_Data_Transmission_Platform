@@ -1,0 +1,73 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.111.133”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  BaseShm.cpp
+  ClientOP.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  Codec.cpp
+  CodecFactory.cpp
+  Hash.cpp
+  main.cpp
+  Message.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  RequestCodec.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  RequestFactory.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  RespondCodec.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  RespondFactory.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error :           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\Message.pb.h(10,10): error : compilation terminated.
+  RsaCrypto.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(41,55): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(41,55): warning :   BIO* bio = BIO_new_mem_buf(keystr.data(), keystr.size());
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(41,55): warning :                                             ~~~~~~~~~~~^~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(127,40): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(127,40): warning :   int ret = RSA_public_encrypt(data.size(), (const unsigned char*)data.data(),
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(127,40): warning :                                ~~~~~~~~~^~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(178,72): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(178,72): warning :   int ret = RSA_sign(level, (const unsigned char*)data.data(), data.size(), (unsigned char*)signBuf,
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(178,72): warning :                                                                ~~~~~~~~~^~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(196,74): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘unsigned int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(196,74): warning :   int ret = RSA_verify(level, (const unsigned char*)data.data(), data.size(),
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(196,74): warning :                                                                  ~~~~~~~~~^~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(228,23): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(228,23): warning :   int length = str.size();
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\RsaCrypto.cpp(228,23): warning :                ~~~~~~~~^~
+  SecKeyShm.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\SecKeyShm.cpp(7,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\SecKeyShm.cpp(13,30): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\SecKeyShm.cpp(87,6): warning : unused variable ‘ret’ [-Wunused-variable]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\SecKeyShm.cpp(87,6): warning :   int ret = 0;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\SecKeyShm.cpp(87,6): warning :       ^~~
+  TcpSocket.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,33): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,33): warning :    int dataLen = sendData.size() + 4;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(75,33): warning :                  ~~~~~~~~~~~~~~~~^~~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,35): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,35): warning :    int netlen = htonl(sendData.size());
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(85,35): warning :                       ~~~~~~~~~~~~~^~
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,17): warning : conversion from ‘size_t’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,17): warning :     return count - nleft;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ClientSecKey\ClientSecKey\TcpSocket.cpp(407,17): warning :            ~~~~~~^~~~~~~
