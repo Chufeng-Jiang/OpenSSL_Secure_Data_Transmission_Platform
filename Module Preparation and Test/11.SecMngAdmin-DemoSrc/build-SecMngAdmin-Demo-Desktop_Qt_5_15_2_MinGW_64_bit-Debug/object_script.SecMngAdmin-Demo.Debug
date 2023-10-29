@@ -1,0 +1,16 @@
+debug/main.o
+debug/mainwindow.o
+debug/dbinfoset.o
+debug/welcomewg.o
+debug/jsonparse.o
+debug/databaseop.o
+debug/addnetsite.o
+debug/modifynetsite.o
+debug/qrc_resource.o
+debug/moc_mainwindow.o
+debug/moc_dbinfoset.o
+debug/moc_welcomewg.o
+debug/moc_jsonparse.o
+debug/moc_databaseop.o
+debug/moc_addnetsite.o
+debug/moc_modifynetsite.o

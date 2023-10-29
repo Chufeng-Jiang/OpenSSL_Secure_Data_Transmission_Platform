@@ -1,1 +1,0 @@
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\jsoncpp\jsoncpp-0.10.7\makefiles\msvc2010\x64\Debug\lib_json.lib
