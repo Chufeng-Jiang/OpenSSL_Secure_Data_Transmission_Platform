@@ -1,0 +1,92 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.111.135”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  BaseShm.cpp
+  Codec.cpp
+  CodecFactory.cpp
+  Hash.cpp
+  main.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  Message.pb.cc
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  OCCIOP.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\OCCIOP.h(4,18): error : occi.h: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\OCCIOP.h(4,18): error :  #include <occi.h>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\OCCIOP.h(4,18): error :                   ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\OCCIOP.h(4,18): error : compilation terminated.
+  RequestCodec.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  RequestFactory.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  RespondCodec.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  RespondFactory.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  RsaCrypto.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning :   BIO* bio = BIO_new_mem_buf(keystr.data(), keystr.size());
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(39,56): warning :                                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning : value computed is not used [-Wunused-value]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning :   BIO_flush(pubIO);
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(68,18): warning :                   ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning : value computed is not used [-Wunused-value]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning :   BIO_flush(priBio);
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(75,19): warning :                    ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning :   int ret = RSA_public_encrypt(data.size(), (const unsigned char*)data.data(),
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(125,41): warning :                                          ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning : conversion to ‘unsigned int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning :   int ret = RSA_sign(level, (const unsigned char*)data.data(), data.size(), (unsigned char*)signBuf,
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(175,73): warning :                                                                          ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning : conversion to ‘unsigned int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning :   int ret = RSA_verify(level, (const unsigned char*)data.data(), data.size(),
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(192,75): warning :                                                                            ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning : value computed is not used [-Wunused-value]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning :   BIO_flush(bs64);
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(213,17): warning :                  ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning :   int length = str.size();
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\RsaCrypto.cpp(224,24): warning :                         ^
+  SecKeyShm.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\SecKeyShm.cpp(7,25): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\SecKeyShm.cpp(13,30): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning : unused variable ‘ret’ [-Wunused-variable]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning :   int ret = 0;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\SecKeyShm.cpp(86,6): warning :       ^
+  ServerOP.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : google/protobuf/port_def.inc: No such file or directory
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :  #include <google/protobuf/port_def.inc>
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error :                                         ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\Message.pb.h(10,40): error : compilation terminated.
+  TcpServer.cpp
+  TcpSocket.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning :    int dataLen = sendData.size() + 4;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(75,33): warning :                                  ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning :    int netlen = htonl(sendData.size());
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(85,36): warning :                                     ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning :     return count - nleft;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\ServerSeckey\ServerSeckey\TcpSocket.cpp(407,17): warning :                  ^

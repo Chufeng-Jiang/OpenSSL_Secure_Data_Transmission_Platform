@@ -1,0 +1,8 @@
+{
+    "ServerID": "666", 
+    "ClientID": "999",
+    "ServerIP": "127.0.0.1",
+    "Port":9999,
+	"ShmKey": "/usr/local",
+	"ShmMaxNode":1
+}

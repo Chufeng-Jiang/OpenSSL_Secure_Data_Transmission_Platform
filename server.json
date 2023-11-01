@@ -1,0 +1,9 @@
+{
+	"ServerID": "0001",
+	"Port": 9999,
+	"UserDB": "SECMNG",
+	"PwdDB": "SECMNG",
+	"ConnStrDB": "192.168.111.135:1521/orcl",
+	"ShmKey": "/usr/lib",
+	"ShmMaxNode": 10
+}
