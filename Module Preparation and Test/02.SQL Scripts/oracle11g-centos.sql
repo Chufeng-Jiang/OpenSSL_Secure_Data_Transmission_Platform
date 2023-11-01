@@ -3,17 +3,17 @@
 
 CREATE TABLESPACE ts_seckey_admin 
     LOGGING  
-    DATAFILE '/u01/app/oracle/oradata/orcl/ts_seckeymng_admin.dbf' SIZE 50M 
+    DATAFILE '/home/oracle_11/app/oradata/orcl/ts_seckeymng_admin.dbf' SIZE 50M 
     EXTENT MANAGEMENT LOCAL;
     
 
 CREATE TABLESPACE ts_seckey_op
     LOGGING 
-    DATAFILE '/u01/app/oracle/oradata/orcl/ts_seckeymng_op.dbf' SIZE 200M
+    DATAFILE '/home/oracle_11/app/oradata/orcl/ts_seckeymng_op.dbf' SIZE 200M
     EXTENT MANAGEMENT LOCAL;
     
-ALTER DATABASE DATAFILE '/u01/app/oracle/oradata/orcl/ts_seckeymng_admin.dbf' AUTOEXTEND ON NEXT   50M MAXSIZE UNLIMITED;
-ALTER DATABASE DATAFILE '/u01/app/oracle/oradata/orcl/ts_seckeymng_op.dbf' AUTOEXTEND ON NEXT  200M MAXSIZE UNLIMITED; 
+ALTER DATABASE DATAFILE '/home/oracle_11/app/oradata/orcl/ts_seckeymng_admin.dbf' AUTOEXTEND ON NEXT   50M MAXSIZE UNLIMITED;
+ALTER DATABASE DATAFILE '/home/oracle_11/app/oradata/orcl/ts_seckeymng_op.dbf' AUTOEXTEND ON NEXT  200M MAXSIZE UNLIMITED; 
 
 commit;
 
@@ -38,8 +38,9 @@ CREATE TABLE SECMNG.SECNODE(
  	state     			NUMBER(4)
 )TABLESPACE ts_seckey_admin;
 
-INSERT INTO SECMNG.secnode VALUES('0001', '网银中心', '北京金融街23号', '15-7月-15', 1, 0);
-INSERT INTO SECMNG.secnode VALUES('1111', '广东分中心1111', '广州天河金融', '15-7月-15', 1111, 0);
+-- 一个是客户端，一个是服务端，后期json文件需要对应上相关的值
+INSERT INTO SECMNG.secnode VALUES('0001', 'Internet Banking Center', 'New York Finance Street', '15-July-2023', 1, 0);
+INSERT INTO SECMNG.secnode VALUES('1111', 'California Branch', 'Winema Cmn', '15-July-2023', 1111, 0);
 commit;
 
 -- 创建 网点密钥表, 客户端网点 服务器端网点 密钥号 密钥产生时间 密钥状态 
@@ -71,6 +72,9 @@ CREATE TABLE SECMNG.SRVCFG(
 	key				VARCHAR2(64),
 	valude			VARCHAR2(128)
 )TABLESPACE ts_seckey_admin;
+
+--增加自己虚拟机的ip
+INSERT INTO srvcfg VALUES ('secmng_server_ip', '192.168.111.135');
 	
 -- 创建 交易信息表 交易者 交易时间 交易事件 交易描述 （什么人 在什么时间 干了什么事）
 CREATE TABLE SECMNG.TRAN(
@@ -99,7 +103,7 @@ end;
 /
 
 
-INSERT INTO SECMNG.TRAN(tran_operator, trantime, tranid, trandesc) VALUES(1, '15-7月-15', 1, '创建网银总节点-测试数据');
+INSERT INTO SECMNG.TRAN(tran_operator, trantime, tranid, trandesc) VALUES(1, '15-July-2023', 1, 'Create Centre Node - Test Data');
 
 commit;
 

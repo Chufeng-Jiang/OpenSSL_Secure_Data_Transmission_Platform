@@ -13,11 +13,11 @@ MainWindow::MainWindow(QWidget *parent) :
     // 添加数据库实例
     QSqlDatabase db = QSqlDatabase::addDatabase("QOCI");
     // 设置连接信息
-    db.setHostName("192.168.111.133");  // 主机地址
+    db.setHostName("192.168.111.135");  // 主机地址
     db.setPort(1521);   // 如果是默认端口, 可以不设置
-    db.setDatabaseName("ORCLCDB"); // 数据库名
-    db.setUserName("c##beza");
-    db.setPassword("123456");
+    db.setDatabaseName("orcl"); // 数据库名
+    db.setUserName("scott");
+    db.setPassword("tiger");
     qDebug() << "准备连接...";
 
     // 连接数据库
