@@ -1,0 +1,83 @@
+﻿生成启动时间为 2019/8/27 16:31:48。
+     1>项目“C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\ShareMemory.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\unsuccessfulbuild”执行 Touch 任务。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.237.131'
+         Copying file 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\BaseShm.cpp' to '/home/robin/projects/ShareMemory/BaseShm.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\main.cpp' to '/home/robin/projects/ShareMemory/main.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp' to '/home/robin/projects/ShareMemory/SecKeyShm.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\BaseShm.h' to '/home/robin/projects/ShareMemory/BaseShm.h'
+         Copying file 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.h' to '/home/robin/projects/ShareMemory/SecKeyShm.h'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /home/robin/projects/ShareMemory/BaseShm.cpp -I /home/robin/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/home/robin/projects/ShareMemory/obj/x64/Debug/BaseShm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         BaseShm.cpp
+         Done compiling '/home/robin/projects/ShareMemory/BaseShm.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/robin/projects/ShareMemory/main.cpp -I /home/robin/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/home/robin/projects/ShareMemory/obj/x64/Debug/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         main.cpp
+         Done compiling '/home/robin/projects/ShareMemory/main.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /home/robin/projects/ShareMemory/SecKeyShm.cpp -I /home/robin/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/home/robin/projects/ShareMemory/obj/x64/Debug/SecKeyShm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         SecKeyShm.cpp
+     1>C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning :   , m_maxNode(maxNode)
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning :                      ^
+     1>C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning :   , m_maxNode(maxNode)
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning :                      ^
+     1>C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning : unused variable ‘ret’ [-Wunused-variable]
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning :   int ret = 0;
+C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning :       ^
+         Done compiling '/home/robin/projects/ShareMemory/SecKeyShm.cpp'
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp: In constructor ‘SecKeyShm::SecKeyShm(int, int)’:
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp:8:21: warning: conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+           , m_maxNode(maxNode)
+                              ^
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp: In constructor ‘SecKeyShm::SecKeyShm(std::__cxx11::string, int)’:
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp:14:21: warning: conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+           , m_maxNode(maxNode)
+                              ^
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp: In member function ‘NodeSHMInfo SecKeyShm::shmRead(std::__cxx11::string, std::__cxx11::string)’:
+         /home/robin/projects/ShareMemory/SecKeyShm.cpp:86:6: warning: unused variable ‘ret’ [-Wunused-variable]
+           int ret = 0;
+               ^
+         
+       Link:
+         Linking objects
+         Invoking 'ld'
+         g++ -o "/home/robin/projects/ShareMemory/bin/x64/Debug/ShareMemory.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/robin/projects/ShareMemory/obj/x64/Debug/BaseShm.o /home/robin/projects/ShareMemory/obj/x64/Debug/main.o /home/robin/projects/ShareMemory/obj/x64/Debug/SecKeyShm.o
+         Done linking, output file name: '/home/robin/projects/ShareMemory/bin/x64/Debug/ShareMemory.out'
+         Copying file '/home/robin/projects/ShareMemory/bin/x64/Debug/ShareMemory.out' to 'C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\bin\x64\Debug\ShareMemory.out'
+         ShareMemory.vcxproj -> C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\bin\x64\Debug\ShareMemory.out
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\unsuccessfulbuild”。
+         正在对“C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\ShareMemory.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\ShareMemory.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\ShareMemory.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning :   , m_maxNode(maxNode)
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(8,21): warning :                      ^
+         C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning :   , m_maxNode(maxNode)
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(14,21): warning :                      ^
+         C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning : unused variable ‘ret’ [-Wunused-variable]
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning :   int ret = 0;
+       C:\Users\Kevin\Desktop\Project 1 Code\ShareMemory\ShareMemory\SecKeyShm.cpp(86,6): warning :       ^
+
+    3 个警告
+    0 个错误
+
+已用时间 00:00:05.77

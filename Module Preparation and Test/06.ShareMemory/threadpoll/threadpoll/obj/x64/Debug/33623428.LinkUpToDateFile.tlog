@@ -1,0 +1,1 @@
+g++ -o "/home/robin/projects/threadpoll/bin/x64/Debug/threadpoll.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/robin/projects/threadpoll/obj/x64/Debug/Logger.o /home/robin/projects/threadpoll/obj/x64/Debug/main.o /home/robin/projects/threadpoll/obj/x64/Debug/TaskQueue.o /home/robin/projects/threadpoll/obj/x64/Debug/ThreadPool.o -lpthread
