@@ -1,8 +1,0 @@
-syntax = "proto3";
-package itheima;
-
-message Persion
-{
-    bytes address = 1;  // 地址
-    int32 number = 2;   // 门牌号
-}

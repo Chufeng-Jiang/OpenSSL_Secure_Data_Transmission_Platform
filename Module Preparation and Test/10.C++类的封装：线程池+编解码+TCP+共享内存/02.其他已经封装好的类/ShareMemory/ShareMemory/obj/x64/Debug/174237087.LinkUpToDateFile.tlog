@@ -1,1 +1,0 @@
-g++ -o "/root/projects/ShareMemory/bin/x64/Debug/ShareMemory.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ShareMemory/obj/x64/Debug/BaseShm.o /root/projects/ShareMemory/obj/x64/Debug/main.o /root/projects/ShareMemory/obj/x64/Debug/SecKeyShm.o

@@ -1,5 +1,0 @@
-﻿  test.cpp
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\09.BIO-base64测试代码\BIO_base64_Test\BIO_base64_Test\test.cpp(22,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\09.BIO-base64测试代码\BIO_base64_Test\BIO_base64_Test\test.cpp(50,49): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\09.BIO-base64测试代码\BIO_base64_Test\BIO_base64_Test\test.cpp(103,46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  BIO_base64_Test.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\Preparation\09.BIO-base64测试代码\BIO_base64_Test\x64\Debug\BIO_base64_Test.exe
