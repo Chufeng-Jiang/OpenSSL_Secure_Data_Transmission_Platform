@@ -1,0 +1,9 @@
+{
+    "serverID":"China-HangZhou-001",
+    "port":8888,
+    "maxnode":20,
+    "shmkey":"/home/bin",
+    "dbUser":"lh",
+    "dbPasswd":"666666",
+    "dbSID":"192.168.168.132:..."
+}
