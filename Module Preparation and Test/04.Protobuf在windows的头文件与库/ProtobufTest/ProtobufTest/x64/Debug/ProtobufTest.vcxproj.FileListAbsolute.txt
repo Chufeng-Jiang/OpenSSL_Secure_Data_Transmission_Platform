@@ -1,0 +1,2 @@
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\x64\Debug\ProtobufTest.exe.lastcodeanalysissucceeded
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Protobuf\ProtobufTest\ProtobufTest\x64\Debug\NativeCodeAnalysis.read.1.tlog
