@@ -1,0 +1,65 @@
+﻿生成启动时间为 2019/6/13 18:32:11。
+     1>项目“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\ShareMemory.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\ShareMemory.lastbuildstate”。
+       _RemoteClean:
+         Cleaning remote project directory
+       InitializeBuildStatus:
+         正在创建“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       _ValidateSources:
+         Validating sources
+       _CopySources:
+         Copying sources remotely to '192.168.247.166'
+         Copying file 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\BaseShm.cpp' to '/root/projects/ShareMemory/BaseShm.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\main.cpp' to '/root/projects/ShareMemory/main.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\SecKeyShm.cpp' to '/root/projects/ShareMemory/SecKeyShm.cpp'
+         Copying file 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\BaseShm.h' to '/root/projects/ShareMemory/BaseShm.h'
+         Copying file 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\SecKeyShm.h' to '/root/projects/ShareMemory/SecKeyShm.h'
+       _ValidateValidArchitecture:
+         Validating architecture
+         Current project architecture 'x64' is compatible with the remote system architecture 'x64' ('x64').
+       ClCompile:
+         Starting remote build
+         Compiling sources:
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/ShareMemory/BaseShm.cpp -I /root/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/root/projects/ShareMemory/obj/x64/Debug/BaseShm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         BaseShm.cpp
+         Done compiling '/root/projects/ShareMemory/BaseShm.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/ShareMemory/main.cpp -I /root/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/root/projects/ShareMemory/obj/x64/Debug/main.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         main.cpp
+         Done compiling '/root/projects/ShareMemory/main.cpp'
+         Invoking 'g++'
+         g++ -c -x c++ /root/projects/ShareMemory/SecKeyShm.cpp -I /root/projects/ShareMemory/../../../../../../Linux/include -g2 -gdwarf-2 -o "/root/projects/ShareMemory/obj/x64/Debug/SecKeyShm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -fno-omit-frame-pointer -fthreadsafe-statics -fexceptions -frtti -std=c++11
+         SecKeyShm.cpp
+         Done compiling '/root/projects/ShareMemory/SecKeyShm.cpp'
+         /root/projects/ShareMemory/SecKeyShm.cpp: 在构造函数‘SecKeyShm::SecKeyShm(int, int)’中:
+         /root/projects/ShareMemory/SecKeyShm.cpp:11:25: 警告：‘int’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+           : BaseShm(key, maxNode * sizeof(NodeSHMInfo))
+                                  ^
+         /root/projects/ShareMemory/SecKeyShm.cpp: 在构造函数‘SecKeyShm::SecKeyShm(std::string, int)’中:
+         /root/projects/ShareMemory/SecKeyShm.cpp:21:30: 警告：‘int’转换自‘long unsigned int’时可能改变值 [-Wconversion]
+           : BaseShm(pathName, maxNode * sizeof(NodeSHMInfo))
+                                       ^
+         /root/projects/ShareMemory/SecKeyShm.cpp: 在成员函数‘NodeSHMInfo SecKeyShm::shmRead(std::string, std::string)’中:
+         /root/projects/ShareMemory/SecKeyShm.cpp:86:6: 警告：未使用的变量‘ret’ [-Wunused-variable]
+           int ret = 0;
+               ^
+         
+       Link:
+         Linking objects
+         Invoking 'ld'
+         g++ -o "/root/projects/ShareMemory/bin/x64/Debug/ShareMemory.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ShareMemory/obj/x64/Debug/BaseShm.o /root/projects/ShareMemory/obj/x64/Debug/main.o /root/projects/ShareMemory/obj/x64/Debug/SecKeyShm.o
+         Done linking, output file name: '/root/projects/ShareMemory/bin/x64/Debug/ShareMemory.out'
+         Copying file '/root/projects/ShareMemory/bin/x64/Debug/ShareMemory.out' to 'C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\bin\x64\Debug\ShareMemory.out'
+         ShareMemory.vcxproj -> C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\bin\x64\Debug\ShareMemory.out
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\unsuccessfulbuild”。
+         正在对“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\obj\x64\Debug\ShareMemory.tlog\ShareMemory.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Kevin\Desktop\MyCode\ShareMemory\ShareMemory\ShareMemory.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:05.15

@@ -1,0 +1,30 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.111.135”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  AesCrypto.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(9,42): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(9,42): warning :    AES_set_encrypt_key(aesKey, key.size() * 8, &m_encKey);
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(9,42): warning :                                           ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(10,42): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(10,42): warning :    AES_set_decrypt_key(aesKey, key.size() * 8, &m_decKey);
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(10,42): warning :                                           ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(35,27): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(35,27): warning :   int length = data.size() + 1; // +1 是添加\0的长度
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\AesCrypto.cpp(35,27): warning :                            ^
+  BaseShm.cpp
+  Interface.cpp
+  SecKeyShm.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(7,25): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(13,30): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(87,6): warning : unused variable ‘ret’ [-Wunused-variable]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(87,6): warning :   int ret = 0;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(87,6): warning :       ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(130,6): warning : unused variable ‘ret’ [-Wunused-variable]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(130,6): warning :   int ret = 0;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\SecKeyShm.cpp(130,6): warning :       ^
+  test.cpp
+  正在链接对象
+  Interface.vcxproj -> F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\Interface\Interface\bin\x64\Debug\Interface.out

@@ -1,0 +1,25 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.111.135”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\main.cpp(29,1): warning : no return statement in function returning non-void [-Wreturn-type]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\main.cpp(29,1): warning :  }
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\main.cpp(29,1): warning :  ^
+  TcpServer.cpp
+  TcpSocket.cpp
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(75,33): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(75,33): warning :    int dataLen = sendData.size() + 4;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(75,33): warning :                                  ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(85,36): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(85,36): warning :    int netlen = htonl(sendData.size());
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(85,36): warning :                                     ^
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(407,17): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(407,17): warning :     return count - nleft;
+F:\Git Repo\OpenSSL Secure Data Transmission Platform\Module Preparation and Test\17.外联接口的实现\socket-test\TcpServer\TcpServer\TcpSocket.cpp(407,17): warning :                  ^
+  正在链接对象
+/usr/bin/ld : error : /root/projects/TcpServer/obj/x64/Debug/main.o: undefined reference to symbol 'pthread_create@@GLIBC_2.2.5'
+//usr/lib64/libpthread.so.0 : error : error adding symbols: DSO missing from command line
+collect2 : error : ld returned 1 exit status
