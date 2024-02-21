@@ -6,4 +6,5 @@ The project uses concurrent server development, QT client development; and also 
 
 Here I used Oracle11g(best fit to Centos7) to store the information.
 
-![facbf8e46ea43380c33f24932f5c770](https://github.com/Chufeng-Jiang/OpenSSL_Secure_Data_Transmission_Platform/assets/80246982/1a68c141-06be-4248-adfa-c3ccd41d3d43)
+![6d00bc28035604a33ae3c47ffd36ec3](https://github.com/Chufeng-Jiang/OpenSSL_Secure_Data_Transmission_Platform/assets/80246982/9ebe242a-45ac-4154-9a12-d965269318f3)
+
